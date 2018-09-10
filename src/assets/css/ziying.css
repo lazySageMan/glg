@@ -1,0 +1,87 @@
+.glg-ziying-header{
+    
+}
+.glg-ziying-header-search{
+    width: 100%;
+    height: 50px;
+}
+.glg-ziying-header-list{
+    width: 100%;
+    overflow: hidden;
+}
+.glg-ziying-header-list .activess{
+    color: rgb(21, 135, 75);
+}
+.glg-ziying-lun{
+    width: 95%;
+    margin: 0 auto;
+}
+.glg-ziying-shang{
+    width: 95%;
+    margin:0 auto;
+}
+.glg-ziying-shang .glg-ziying-shang-item{
+    width: 90%;
+    height: 190px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin:0 auto;
+}
+.glg-ziying-shang .glg-ziying-shang-item .glg-ziying-shang-item-title{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+    height: 27%;
+
+}
+
+.glg-ziying-shang .glg-ziying-shang-item .glg-ziying-shang-item-title p{
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    text-align: left;
+}
+.glg-ziying-shang .glg-ziying-shang-item .glg-ziying-shang-item-title p:first-child{
+    color: black;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    height:38px; 
+    -webkit-box-orient: vertical;
+    text-align: left;
+}
+.glg-ziying-shang .glg-ziying-shang-item .glg-ziying-shang-item-title p:last-child{
+    color: red;
+    margin-top: 3px;
+    text-align: left;
+
+}
+.glg-ziying-shang .glg-ziying-shang-item .glg-ziying-shang-item-img{
+    width: 80%;
+    margin:0 auto;
+    height: 65%;
+    border-top-left-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+.glg-ziying-shang-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.glg-ziying-shang-title h3{
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-top-left-radius:30px;
+    border-bottom-right-radius:30px;
+    background:rgb(105,216,136);
+    color: #fff;
+}
+.glg-ziying-shang-title span{
+   align-self: flex-end;
+   color: rgb(105,216,136);
+}

@@ -1,0 +1,148 @@
+/* header */
+.glg-header{
+    width: 100%;
+    background: #ff5e2c;
+}
+
+.glg-header .glg-header-top{
+    width: 100%;
+    display: flex;  
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.glg-header .glg-header-top .glg-header-top-back{
+    width: 15%;
+    height: 40px;
+    background-size: 40% 60%;
+    background-position: 10px 7px;
+    margin-left: -5%;
+    margin-top: 10px;
+}
+.glg-header .glg-header-top .glg-header-top-title{
+    margin-top: 10px;
+    font-size: 22px;
+    color: #fff;
+    height: 40px;
+    margin-left: -25px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.glg-header .glg-header-top .glg-header-top-more{
+    font-size: 12px;
+    height: 40px;
+    width: 15%;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-right: -12%;
+    color: #fff;
+}
+
+
+.glg-header .glg-header-bottom{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    font-family: "youYuan"
+}
+.glg-header .glg-header-bottom .glg-header-bottom-item1,.glg-header .glg-header-bottom .glg-header-bottom-item2{
+    width:10%;
+    height: 30px;
+    margin-top:-35px;
+}
+.glg-header .glg-header-bottom .glg-header-bottom-item1 div,.glg-header .glg-header-bottom .glg-header-bottom-item2 div{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+}
+.glg-header .glg-header-bottom .glg-header-bottom-item1 p,.glg-header .glg-header-bottom .glg-header-bottom-item2 p{
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+.glg-header .glg-header-bottom .glg-header-bottom-item3{
+    width: 115px;
+    height: 115px;
+    background: #fff;
+    border-radius: 50%;
+    border:3px solid orangered;
+}
+.glg-header .glg-header-bottom .glg-header-bottom-item3 div{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/* .glg-header .glg-header-bottom .glg-header-bottom-item3  */
+.glg-header .glg-header-bottom .glg-header-bottom-item4{
+    width: 60px;
+    height: 50px;
+    margin-top:-10px;
+}
+.glg-header .glg-header-bottom .glg-header-bottom-item4 div{
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    background: orangered;
+    color: #fff;
+    border:2px solid #fff;
+    margin-bottom: 14px;
+}
+.glg-header .glg-header-bottom .glg-header-bottom-item4 p{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+.glg-header .glg-header-bottom .glg-header-bottom-item5{
+    width: 5%;
+    height: 50px;
+    background: #fff;
+    margin-top:-2px;
+    background: url("../img/images/shousuo2_03.png") no-repeat;
+    background-size:95%;
+}
+
+
+.glg-header .glg-header-bottom .glg-header-bottom-list{
+    width: 100%;
+    height: 43px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.glg-header .glg-header-bottom .glg-header-bottom-list div{
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+}
+.glg-header .glg-header-bottom .glg-header-bottom-list .glg-header-bottom-list-1{
+    height: 33px;
+    margin-left: 4%;
+}
+.glg-header .glg-header-bottom .glg-header-bottom-list .active{
+    border-bottom: 2px solid orangered;
+    color: orangered;
+}
+
+/* glg-ads */
+.glg-ads{
+    width: 100%;
+    height: 160px;
+    /* background: url("../img/bg1.png");
+    background-size: cover; */
+}
+/* glg-shops */
+
+

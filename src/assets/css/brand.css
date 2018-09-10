@@ -1,0 +1,77 @@
+.glg-list{
+    width: 100%;
+    height:130px;
+    overflow: hidden;
+}
+.glg-list .oul {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: rgb(236,236,236);
+}
+
+.glg-list .oul .glg-list-item{
+    width: 14%;
+    height:90%;
+    margin-top: 6px;
+}
+.glg-list .oul .glg-list-item .itemDiv {
+    width: 100%;
+    height: 50%;
+
+}
+.glg-list .oul .glg-list-item .itemDiv .itemDivImg{
+    width: 100%;
+    height: 100%;
+    margin-top: 25%;
+}
+.glg-list .oul .glg-list-item p{
+    width: 100%;
+    font-size: .7em;
+    color: black;
+    margin-top:5%;
+    font-weight: bold;
+    text-align: center;
+    height: 20%;
+}
+/* select */
+.glg-select{
+    width: 88%;
+    height:350px;
+    margin:0 auto;
+    margin-top:20px;
+}
+.glg-select .glg-select-title{
+    width: 100%;
+    height:35px;
+    border-left: 5px solid orangered;
+    font-size: 18px;
+}
+.glg-select .glg-select-list{
+    background: transparent;
+    padding:0;
+    width: 100%;
+    overflow: hidden;
+}
+.glg-select .glg-select-list ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.glg-select .glg-select-list ul li{
+    margin-left: 2%;
+    width: 22%;
+    height: 30px;
+    margin-top:10px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    border:1px solid rgba(128,128,128,.3);
+    overflow: hidden;
+}
+.activeact{
+  background: #fff;
+}
+

@@ -1,0 +1,226 @@
+/* 彭一高　2018/07/02 */
+
+/* banner */
+
+.glg-banner{
+    width: 100%;
+    overflow: hidden;
+}
+.glg-banner .oUl{
+    width: 100%;
+}
+.glg-banner .oUl .oLi{
+    width: 25%;
+    list-style-type: none;
+    float: left;
+}
+.glg-banner .oUl .oLi img{
+    width: 100%;
+}
+
+/* SelectList */
+
+.glg-select-list{
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    background: #fff;
+    padding:5px;
+    padding:20px 0;
+}
+.glg-select-list .glg-select-list-one{
+    margin:0 1.25%;
+    width: 20%;
+    height:80px;
+    cursor: pointer;
+}
+.glg-select-list .glg-select-list-one:nth-of-type(n+5){
+    margin-top: 5%;
+}
+.glg-select-list .glg-select-list-one .glg-select-list-img{
+    width: 60px;
+    height:60px;
+    margin:0 auto;
+}
+.glg-select-list .glg-select-list-one .glg-select-list-title{
+    text-align: center;
+    font-size: .9em;
+    margin-top:5px;
+    color: rgb(33,30,31);
+}
+
+/* ads */
+
+.glg-ad{
+    width: 95%;
+    margin:0 auto;
+}
+.glg-ad .glg-ad-top{
+    width: 100%;
+    height:150px;
+
+    border-radius: 10px;
+}
+.glg-ad .glg-ad-bottom{
+    margin-top:10px;
+    margin-bottom: 30px;
+}
+.glg-ad .glg-ad-bottom div{
+    width: 48.5%;
+    height:150px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    float: left;
+}
+.glg-ad .glg-ad-bottom .glg-ad-bottom-l{
+    margin-right: 3%;
+    border-radius: 10px;
+}
+.glg-ad .glg-ad-bottom .glg-ad-bottom-r{
+    border-radius: 10px;
+}
+
+
+/* market */
+.glg-market{
+    width: 95%;
+    margin:0 auto;
+    margin-bottom: 20px;
+    margin-top:50px;
+}
+.glg-market .gig-market-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+.glg-market .gig-market-title .gig-market-title-l{
+    width: 9em;
+    height:2.7em;
+    background: url("../img/show1.gif") no-repeat;
+    background-position-y: 9px;
+    background-size: 80%;
+}
+.glg-market .gig-market-title .gig-market-title-r{
+    width: 15%;
+    height:25px;
+    color: #fff;
+    background: orangered;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 15px;
+}
+.glg-market .glg-market-img{
+    width: 100%;
+    height:180px;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: block;
+}
+.glg-market .glg-market-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.glg-market .glg-market-list li{
+    width:23%;
+    height:90px;
+}
+.glg-market .glg-market-list li .glg-market-list-img{
+    width: 100%;
+    height:80%;
+    border-radius: 5px;
+}
+.glg-market .glg-market-list li p{
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    font-family: 'Arial';
+    font-weight: bold;
+    color: orangered;
+}
+/* guess */
+
+.glg-guess{
+    margin:0 auto;
+    width: 95%;
+}
+.glg-guess ul{
+    width: 100%;
+    column-count: 2;
+    column-gap: 4%;
+    position: relative;
+}
+.glg-guess ul li{
+    display: block;
+    /* width: 47%; */
+    break-inside: avoid;
+    box-sizing: border-box;
+    margin-top:10%;
+    position: relative;
+}
+.glg-guess ul .glg-guess-item{
+    height: 270px;
+    background: #f8f8f8;
+    border-radius: 5px;
+}
+.glg-guess ul .glg-guess-item .glg-guess-item-img{
+    border-radius: 5px;
+}
+.glg-guess ul .glg-guess-item .glg-guess-item-img{
+    width: 100%;
+    height:65%;
+}
+
+.glg-guess ul .glg-guess-item .glg-guess-item-sug{
+    font-size: .7em;
+    color:rgb(102,102,102);
+    /* font-style : italic; */
+    line-height: 20px;
+    margin-left: 4%;
+}
+.glg-guess ul .glg-guess-item .glg-guess-item-name{
+    color:rgb(51,51,51);
+    font-size: 1.3em;
+    height: 20px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-left: 4%;
+    word-break: keep-all;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.glg-guess ul .glg-guess-item .glg-guess-item-d{
+    color: rgba(80,80,80,.7);
+    font-size: 1.1em;
+    margin-left: 6%;
+
+}
+
+.glg-guess ul .glg-guess-item .glg-guess-item-p{
+    font-size: 1.1em;
+    color:rgb(253,72,72);
+    height: 30px;
+    line-height: 30px;
+    margin-left: 4%;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.glg-guess ul .glg-guess-item .glg-guess-item-p span{
+    color:rgb(102,102,102);
+    font-size: .7em;
+}
+
+.glg-guess .glg-guess-title .glg-guess-title-t{
+    width: 11em;
+    height:3em;
+    background: url("../img/show2.png") no-repeat;
+    background-position-y: 9px;
+    background-size: 80%;
+}
+
+/* foot */

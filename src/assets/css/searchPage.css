@@ -1,0 +1,28 @@
+.glg-list1{
+    width: 100%;
+    height:50px;
+    border-top: 4px solid rgba(128,128,128,.2);
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+}
+.glg-list1 div{
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 50px;
+}
+.glg-list1 .active{
+    height:48px;;
+    line-height: 50px;
+    border-bottom: 2px solid orangered;
+    color: orangered;
+}
+.address{
+  width: 100%;
+  height:50px;
+  background:rgba(128,128,128,.1);
+  text-align: center;
+  line-height: 50px;
+  font-size: 15px;
+  color: orangered;
+}

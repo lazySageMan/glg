@@ -1,0 +1,265 @@
+
+/* shopping search */
+.delete{
+  width:50px;height:80px;
+  text-align: center;
+  background: orangered;
+  font-size: 18px;
+  line-height: 80px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "youYuan";
+  border-radius: 2px;
+}
+.glg-header-search1{
+    width: 100%;
+    height:40px;
+    background: #fff;
+    position: relative;
+    border-top: 2px solid rgba(128,128,128,.1);
+    border-bottom: 3px solid rgba(128,128,128,.1);
+}
+.glg-header-search1 input{
+    font-family: "youYuan";
+    border:none;
+    outline: none;
+    width: 70%;
+    height:100%;
+    position: absolute;
+    left: 50px;
+    font-size: 15px;
+    background: transparent;
+
+    /* visibility: hidden */
+}
+.glg-header-search1 input::-webkit-input-placeholder{
+    font-family: "youYuan";
+    font: 20px;
+}
+.glg-header-search1 .glg-header-img1{
+    width: 35px;
+    height:35px;
+    background: url("../img/weizhi1.png") no-repeat;
+    background-size: 70% 80%;
+    background-position: 3px 3px;
+    position: absolute;
+    top:3px;
+    left: 15px;
+}
+.glg-header-search1 .glg-header-search-edi{
+    position: absolute;
+    right: 20px;
+    top:10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(128,128,128,.8);
+}
+
+/* list */
+
+.glg-shop-list{
+    width: 100%;
+}
+.glg-shop-list .glg-shop-p{
+    width: 100%;
+    border-bottom: 4px solid rgba(128,128,128,.2);
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w{
+    position: relative;
+    width: 95%;
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-title{
+    margin-top:20px;
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-title input{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top:2px;
+    left:16px; ;
+    margin: auto 0;
+    border:none;
+    outline: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    /* visibility: hidden; */
+    background: transparent;
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-title p{
+    margin-left: 40px;
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-title input:before{
+    content: url("../img/yuan2.png");
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-title input:checked:before{
+    content: url("../img/yuan1.png");
+}
+
+/* 内容 */
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list{
+    width: 100%;
+    height: 100px;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list input{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top:40px;
+    left:7px; ;
+    margin: auto 0;
+    border:none;
+    outline: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    background: transparent;
+    /* visibility: hidden */
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list input::before{
+    content: url("../img/yuan2.png");
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list input:checked::before{
+    content: url("../img/yuan1.png");
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list .glg-shop-p-w-list-img{
+    width: 23%;
+    height: 100%;
+    position: absolute;
+    left:37px ;
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list .glg-shop-p-w-list-img div{
+    height: 80%;
+    width: 100%;
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list .glg-shop-p-w-list-content{
+    width: 61.7%;
+    height: 98%;
+    position: absolute;
+    left: 132px;
+    border-bottom: .5px solid rgba(128,128,128,.5);
+}
+
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list .glg-shop-p-w-list-content .glg-shop-p-w-list-content-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space:nowrap; 
+    text-overflow:ellipsis;
+    height: 20px;
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list .glg-shop-p-w-list-content .glg-shop-p-w-list-content-center{
+    position: absolute;
+    top: 22px;
+    left: 0;
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list .glg-shop-p-w-list-content  .glg-shop-p-w-list-content-bottom{
+    position: absolute;
+    left: 0;
+    bottom:14%;
+    width: 100%;
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list .glg-shop-p-w-list-content  .glg-shop-p-w-list-content-bottom-l{
+    width: 30%;
+    font-size: 18px;
+    color: orangered;
+    font-weight: bold;
+    float: left;
+}
+
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list .glg-shop-p-w-list-content  .glg-shop-p-w-list-content-bottom-l .span1{
+    font-size: 12px;
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list .glg-shop-p-w-list-content  .glg-shop-p-w-list-content-bottom-r{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+}
+
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list .glg-shop-p-w-list-content  .glg-shop-p-w-list-content-bottom-r .glg-shop-p-w-list-content-bottom-r-less{
+    width: 23px;
+    height: 23px;
+    background: url("../img/add1.png") no-repeat;
+    background-size: cover;
+}
+
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list .glg-shop-p-w-list-content  .glg-shop-p-w-list-content-bottom-r .glg-shop-p-w-list-content-bottom-r-add{
+    width: 23px;
+    height: 23px;
+    background: url("../img/add2.png") no-repeat;
+    background-size: cover;
+}
+.glg-shop-list .glg-shop-p .glg-shop-p-w .glg-shop-p-w-list .glg-shop-p-w-list-content  .glg-shop-p-w-list-content-bottom-r .glg-shop-p-w-list-content-bottom-r-num{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+}
+
+/* 结算 */
+
+.glg-g{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5em;
+    border-bottom:5px solid rgba(128,128,128,.2);
+}
+
+.glg-g .glg-all{
+    position: relative;
+    height: 50px;
+    width: 30%;
+}
+.glg-g .glg-all input{
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    width: 22px;
+    height: 22px;
+    margin:auto 0;
+    border:none;
+    outline: none;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    background: transparent;
+    /* visibility: hidden */
+}
+.glg-g .glg-all p{
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    left: 40px;
+}
+.glg-g .glg-all input::before{
+    content: url("../img/yuan2.png");
+}
+.glg-g .glg-all input:checked:before{
+    content: url("../img/yuan1.png");
+}
+.glg-g .glg-allMoney{
+    font-size: 20px;
+    color: orangered;
+    margin-left: -13%;
+}
+.glg-g .glg-allMoney .spanall{
+    color: black;
+}
+.glg-g .glg-allBtn{
+    width: 25%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    background: orangered;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}

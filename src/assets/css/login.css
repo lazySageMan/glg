@@ -1,0 +1,123 @@
+.glg-main .glg-main-btn{
+    background: #fff;
+    width: 92%;
+    height:280px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: absolute;
+    top:-4.5em;
+    left: 4%;
+    box-shadow: 0 -2px 4px 0px orangered;
+}
+/* 登录时的图标 */
+.glg-main .glg-main-btn .glg-main-btn-inp-n p{
+    width: 2.5em;
+    height:2.5em;
+    background: url("../img/login-pass1.png") no-repeat 50%/80%;
+}
+.glg-main .glg-main-btn .glg-main-btn-inp-p p{
+    width: 2.5em;
+    height:2.5em;
+    background: url("../img/denglu3.png") no-repeat 50%/95%;
+}
+
+/* .glg-main .glg-main-btn .glg-main-btn-inp-p:last-child p{
+  background: url("../img/login-pass2.png") no-repeat;
+} */
+
+/* phoneLogin */
+
+.glg-main .glg-main-btn{
+    background: #fff;
+    width: 92%;
+    height:280px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: absolute;
+    top:-4.5em;
+    left: 4%;
+    box-shadow: 0 -2px 4px 0px orangered;
+}
+/* .glg-main .glg-main-btn .glg-main-btn-inp-n p{
+    width: 2.5em;
+    height:2.5em;
+    /* background: url("../img/denglu1.png") no-repeat;
+}
+.glg-main .glg-main-btn .glg-main-btn-inp-p p{
+    width: 2.5em;
+    height:2.5em;
+    background: url("../img/denglu2.png") no-repeat cover;
+} */
+.glg-main .glg-main-btn .glg-main-btn-inp-p div{
+    width: 30%;
+    height:25px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    font-size: 12px;
+    background: orangered;
+    position: absolute;
+    bottom:20px;
+    right: 0;
+}
+
+/* register */
+
+.glg-main .glg-main-btn{
+    background: #fff;
+    width: 92%;
+    height:350px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: absolute;
+    top:-4.5em;
+    left: 4%;
+    box-shadow: 0 -2px 4px 0px orangered;
+}
+.glg-main .glg-main-btn .glg-main-btn-inp-p .userPhoneGray{
+  background: gray;
+  color: #fff;
+}
+.glg-main .glg-main-btn .glg-main-btn-inp-p div{
+    width: 30%;
+    height:25px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+    font-size: 12px;
+    background: orangered;
+    position: absolute;
+    right: 0;
+    bottom:15px;
+}
+/* .glg-main .glg-main-btn .glg-main-btn-inp-n p{
+    width: 2.5em;
+    height:2.5em;
+    background: url("../img/denglu1.png") no-repeat cover;
+
+} */
+/* .glg-main .glg-main-btn .glg-main-btn-inp-p p{
+    width: 2.5em;
+    height:2.5em;
+    background: url("../img/denglu1.png") no-repeat cover;
+
+} */
+/* .glg-main .glg-main-btn .glg-main-btn-inp-p:nth-child(3) p,.glg-main .glg-main-btn .glg-main-btn-inp-p:nth-child(4) p{
+    width: 2.5em;
+    height:2.5em;
+    background: url("../img/denglu3.png") no-repeat cover;
+} */
+
+.glg-main .glg-main-rule{
+    width: 100%;
+    position: absolute;
+    top:28em;
+    color: rgba(80,80,80,.5);
+    font-size: .9em;
+    text-align: center;
+}
+.glg-main .glg-main-rule span{
+    color: orangered;
+}

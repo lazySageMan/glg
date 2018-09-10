@@ -1,0 +1,299 @@
+.address-details{
+    font-family: "youYuan";
+    margin-bottom: 60px;
+    text-align: center;
+    height:40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: rgba(80,80,80,.4);
+    background: rgba(80,80,80,.1);
+}
+.glg-header-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+}
+.glg-header-1 .active{
+    border-bottom: 2px solid orangered;
+}
+.glg-header-1 .glg-header-2 ,.glg-header-1 .glg-header-3,.glg-header-1 .glg-header-4,.glg-header-1 .glg-header-5{
+    line-height: 40px;
+    color: rgba(128,128,128,.8);
+}
+/* lunbo */
+.glg-lun {
+    width: 100%;
+    margin-top:.5%;
+    overflow: hidden;
+}
+
+.glg-lun .glg-lun-ul .glg-lun-li{
+    width: 100%;
+    height: 100%
+}
+.sssssss{
+    width: 100%;
+    height: 100%;
+}
+
+/* title */
+
+.glg-title {
+    width: 100%;
+
+    /* border-top: 3px solid rgba(128,128,128,.2); */
+    border-bottom: 4px solid rgba(128,128,128,.2);
+}
+
+.glg-title .glg-title-t{
+    width: 95%;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 20px;
+    word-break: break-all;
+    margin:5px auto;
+}
+
+.glg-title .glg-title-p{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.glg-title .glg-title-p .glg-title-p1{
+}
+.glg-title .glg-title-p .glg-title-p1 span:nth-child(1){
+    font-family: "Arial";
+    margin-right: 3px;
+}
+.glg-title .glg-title-p .glg-title-p1 span:nth-child(2){
+    font-family: "Arial";
+    font-size: 1.7em;
+    /* font-weight: bold; */
+}
+.glg-title .glg-title-p .glg-title-p2{
+    margin-left: -6%;
+    width: 75.1px;
+    height: 23px;
+    position: relative;
+    background: url("../img/star1.png") repeat-x;
+    background-size: 15px 15px;
+    margin-top: .4em;
+}
+.glg-title .glg-title-p .glg-title-p2 span{
+    position: absolute;
+    right: -10px;
+    top:1px;
+    font-size: 15px;
+    color: orangered;
+}
+.glg-title .glg-title-p .glg-title-p3 {
+    font-size: .9em;
+    color: orangered;
+    margin-right: 15px;
+}
+.glg-title .glg-title-k{
+    width: 95%;
+    margin:0 auto;
+    font-size: .8em;
+}
+.glg-title .glg-title-b{
+    width: 95%;
+    font-size: .8em;
+    line-height: 30px;
+    margin:0 auto;
+}
+/* choose */
+
+.glg-choose {
+    width: 100%;
+    border-bottom: 4px solid rgba(128,128,128,.2);
+}
+.glg-choose .glg-choose-title{
+    width: 95%;
+    font-size: .8em;
+    line-height: 40px;
+    margin:0 auto;
+    color: black
+}
+.glg-choose .glg-choose-list{
+    width: 95%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.glg-choose .glg-choose-list .glg-choose-list-item{
+    width: 31%;
+    height:30px;
+    background: orangered;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: .8em;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 3%;
+}
+.glg-choose .glg-choose-list .active{
+    color: #fff;
+    background: orange;
+}
+.glg-choose .glg-choose-list .glg-choose-list-item:nth-child(3){
+    margin-right: 0;
+}
+.glg-choose .glg-choose-list .glg-choose-list-item:nth-child(4),.glg-choose .glg-choose-list .glg-choose-list-item:nth-child(5){
+    margin-top: 10px;
+}
+
+/* 用户评价 */
+.glg-user{
+    width: 100%;
+    border-bottom: 4px solid rgba(128,128,128,.2);
+    height: 45px;
+}
+.glg-user .glg-user-w{
+    width: 95%;
+    height: 100%;
+    margin:0 auto;
+    margin-bottom: 70px;
+}
+
+.glg-user .glg-user-w .glg-user-l{
+    font-weight: bold;
+    float: left;
+    height: 100%;
+    line-height: 45px;
+}
+
+.glg-user .glg-user-w .glg-user-r{
+    font-weight: bold;
+    float: right;
+    height: 100%;
+    line-height: 45px;
+    position: relative;
+    margin-right: 10%;
+    font-size: 13px;
+    color: orangered;
+}
+.glg-user .glg-user-w .glg-user-r div{
+    width: 28px;;
+    height: 46px;
+    background: url("../img/enter1.png") no-repeat;
+    background-size: 15px 26px;
+    background-position: 6.5px 10px;
+    position: absolute;
+    top:0;
+    right: -2.5em;
+}
+/* 用户评价的内容 */
+
+.glg-ass{
+    width: 100%;
+}
+
+.glg-ass .glg-ass-w-content{
+    width: 100%;
+    /* height: 150px; */
+    border-bottom: 4px solid rgba(128,128,128,.2);
+}
+.glg-ass .glg-ass-w-content .glg-ass-w{
+    width: 95%;
+    height:100%;
+    margin:0 auto;
+}
+
+.glg-ass .glg-ass-w-content .glg-ass-w .glg-ass-w-content-u{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.glg-ass .glg-ass-w-content .glg-ass-w .glg-ass-w-content-u .glg-ass-w-content-u-h{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+.glg-ass .glg-ass-w-content .glg-ass-w .glg-ass-w-content-u .glg-ass-w-content-u-n{
+    font-weight: bold;
+    margin-left: -25%;
+}
+.glg-ass .glg-ass-w-content .glg-ass-w .glg-ass-w-content-u .glg-ass-w-content-u-p{
+    width: 75px;
+    height:23px;
+    background: url("../img/star1.png") repeat-x;
+    background-size: 15px 15px;
+    margin-top: .4em;
+}
+.glg-ass .glg-ass-w .glg-ass-w-content-p {
+    word-break: break-all;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 30px;
+}
+.xiangqin{
+  width: 100%;
+}
+.xiangqin img{
+  width: 100%;
+}
+.glg-ass .glg-ass-w .glg-ass-w-content-img{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.glg-ass .glg-ass-w .glg-ass-w-content-img div{
+    width: 31%;
+    height:80px;
+    margin: 0 1%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.glg-ass .glg-ass-w .glg-ass-w-content-time{
+    line-height: 40px;
+    color: rgba(128,128,128,.7);
+    font-weight: bold;
+}
+
+.glg-tab{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+}
+.glg-tab ul{
+    width: 100%;
+}
+.glg-tab ul .glg-tab-img{
+    float: left;
+    width: 16.6666%;
+    height: 60px
+}
+.glg-tab ul .glg-tab-img div{
+    width:60%;
+    height:60%;
+    margin:0 auto;
+}
+
+.glg-tab ul .glg-tab-btn{
+    float: left;
+    width: 33%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+.glg-tab ul .glg-tab-img p{
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+
+}

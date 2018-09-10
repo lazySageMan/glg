@@ -1,0 +1,34 @@
+.glg-shop-list{
+    width: 100%;
+}
+.glg-shop-list ul{
+    width: 100%;
+}
+.glg-shop-list ul li{
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid rgba(128,128,128,.4);
+    background: #fff;
+}
+.glg-shop-list ul li:last-child{
+  margin-bottom: 100px;
+}
+.glg-shop-list ul li .glg-shop-list-w{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.glg-shop-list ul li .glg-shop-list-w div{
+    line-height: 55px;
+}
+.glg-shop-list ul li .glg-shop-list-w p{
+    width: 28px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 55px;
+    color: #666;
+}

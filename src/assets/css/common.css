@@ -1,0 +1,471 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+  padding: 0;
+
+}
+ul li{
+    list-style-type: none;
+}
+@font-face{ /* project id 246439 */
+    font-family: "youYuan";
+    src:url("../font/幼圆字体.TTF");
+}
+@font-face{ /* project id 246439 */
+    font-family: 'lingdang';
+    src:url("../font/lingdang.ttf");
+}
+@font-face{ /* project id 246439 */
+    font-family: 'zhenzhen';
+    src:url("../font/zhenzhen.TTF");
+}
+body{
+    font-family: "youYuan";
+    /* background: #f6f6f6; */
+}
+/* .changeColor{
+    color: #ff5e2c;
+} */
+input {
+    font-family: "youYuan";
+    border:none;
+    outline: none;
+}
+/* wrap */
+.glg-wrap{
+    max-width: 500px;
+    margin:0 auto;
+}
+/* 搜索框 */
+.glg-header-search{
+    width: 100%;
+    height:40px;
+    background: #fff;
+    position: relative;
+}
+.glg-header-search input{
+    font-family: "youYuan";
+    border:none;
+    outline: none;
+    width: 70%;
+    height:100%;
+    position: absolute;
+    left: 60px;
+    font-size: 20px;
+}
+.glg-header-search input::-webkit-input-placeholder{
+    font-family: "youYuan";
+    font: 20px;
+}
+.glg-header-search .glg-header-img{
+    width: 30px;
+    height:30px;
+    background: url("../img/pingpai.png") no-repeat;
+    background-size: 80% 80%;
+    background-position: 3px 3px;
+    position: absolute;
+    top:3px;
+    left: 15px;
+}
+/* tabbar公共样式 */
+.glg-tabbar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 100;
+}
+.glg-tabbar ul{
+    display: flex;
+    justify-content: space-around
+}
+.glg-tabbar ul li{
+    padding:2% 0;
+    width: 18%;
+    height:60px;
+}
+.glg-tabbar ul li .glg-tabbar-img{
+    width:65%;
+    height:65%;
+    margin:0 auto;
+}
+address{
+    font-family: "youYuan";
+    margin-bottom: 6em;
+    text-align: center;
+    height:40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: rgba(80,80,80,.4);
+    background: rgba(80,80,80,.1);
+}
+
+/* tabbar 一上来的样式 */
+.glg-tabbar ul li:nth-child(1) .glg-tabbar-img{
+  background: url("../img/tabbarindexhide.png") no-repeat;
+  background-size: 70% 70%;
+  background-position: 50%;
+}
+.glg-tabbar ul li:nth-child(2) .glg-tabbar-img{
+  background: url("../img/tabbarpinhide.png") no-repeat;
+  background-size: 70% 70%;
+  background-position: 50%;
+}
+.glg-tabbar ul li:nth-child(3) .glg-tabbar-img{
+  background: url("../img/tabbarleihide.png") no-repeat;
+  background-size: 70% 70%;
+  background-position: 50%;
+}
+.glg-tabbar ul li:nth-child(4) .glg-tabbar-img{
+  background: url("../img/tabbarcarhide.png") no-repeat;
+  background-size: 80% 70%;
+  background-position: 50%;
+}
+.glg-tabbar ul li:nth-child(5) .glg-tabbar-img{
+  background: url("../img/tabbermehide.png") no-repeat;
+  background-size: 70% 70%;
+  background-position: 50%;
+}
+
+/* tabbar 动态切换 */
+.route-shou1 #tabimg1{
+  background:url("../img/tabbarindexshow.png") no-repeat;
+  background-size: 70% 70%;
+  background-position: 50%;
+}
+.route-shou2 #tabimg2{
+  background:url("../img/tabbarpinshow.png") no-repeat;
+  background-size: 70% 70%;
+  background-position: 50%;
+}
+.route-shou3 #tabimg3{
+  background:url("../img/tabbarleishow.png") no-repeat;
+  background-size: 70% 70%;
+  background-position: 50%;
+}
+.route-shou4 #tabimg4{
+  background:url("../img/tabbercarshow.png") no-repeat;
+  background-size: 80% 70%;
+  background-position: 50%;
+}
+.route-shou5 #tabimg5{
+  background:url("../img/tabbarmeshow.png") no-repeat;
+  background-size: 70% 70%;
+  background-position: 50%;
+}
+
+.glg-tabbar ul li p{
+    text-align: center;
+    font-size: .8em;
+    line-height: 20px;
+}
+
+/* address */
+
+/* shops */
+
+.glg-shops{
+    width: 98%;
+    margin:0 auto;
+    height: auto;
+    background:rgba(128,128,128,.2);
+    padding:0 1%;
+}
+.glg-shops .glg-shops-item{
+    width: 49%;
+    float: left;
+    margin-top: 1.5%;
+    background: #fff;
+}
+.glg-shops .clearFloat{
+    clear:both;
+    height:0;
+    overflow:hidden;
+}
+.glg-shops .glg-shops-item:nth-child(2n-1){
+    margin-right: 2%;
+}
+.glg-shops .glg-shops-item .glg-shops-item-img{
+    width: 100%;
+    height: 180px;
+}
+.glg-shops .glg-shops-item .glg-shops-item-s{
+    width: 90%;
+    margin:0 auto;
+    font-size: 12px;
+    color: rgba(128,128,128,.4);
+    margin-top:2%;
+}
+
+.glg-shops .glg-shops-item h3{
+    width: 90%;
+    margin:0 auto;
+    margin-top: 3%;
+    font-size: 13px;
+    height: 1.2em;
+    line-height: 1.25em;
+    color: black;
+    word-break: keep-all;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.glg-shops .glg-shops-item .glg-shops-item-p{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    margin-top: 3%;
+    height: 30px;
+}
+
+.glg-shops .glg-shops-item .glg-shops-item-p p{
+    font-size: 18px;
+    font-weight: bold;
+    color: orangered;
+}
+.glg-shops .glg-shops-item .glg-shops-item-p p span{
+    font-size: .5em;
+    font-weight: bold;
+}
+.glg-shops .glg-shops-item .glg-shops-item-p div{
+    font-size: .6em;
+    color: orangered;
+    line-height: 20px;
+}
+
+/* 登录注册 */
+.glg-logo{
+    width: 100%;
+    height:18em;
+    background: orangered;
+}
+.glg-logo .glg-logo-all{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.glg-logo .glg-logo-all .glg-logo-all-img{
+    width: 23%;
+    height: 9.4em;
+    background: url("../img/LOGO.png") no-repeat;
+    background-size: 90% 90%;
+    margin-top: 2.5em;
+}
+/* main */
+.glg-main{
+    width: 100%;
+    position: relative;
+}
+.glg-main .glg-main-btn .glg-main-btn-inp-n{
+    width: 80%;
+    height:3em;
+    margin:0 auto;
+    margin-top:1.5em;
+    border-bottom: 2px solid rgba(80,80,80,.5);
+    /* background: blue; */
+    position: relative;
+}
+.glg-main .glg-main-btn .glg-main-btn-inp-n input{
+    width: 82%;
+    height: 80%;
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    font-size: 1.2em;
+}
+.glg-main .glg-main-btn .glg-main-btn-inp-n input::-webkit-input-placeholder{
+    font-size: .8em;
+    color: rgba(80,80,80,.3)
+}
+
+.glg-main .glg-main-btn .glg-main-btn-inp-p{
+    width: 80%;
+    height:3em;
+    margin:0 auto;
+    margin-top:1em;
+    border-bottom: 2px solid rgba(80,80,80,.5);
+    /* background: blue; */
+    position: relative;
+}
+.glg-main .glg-main-btn .glg-main-btn-inp-p input{
+
+    width: 82%;
+    height: 90%;
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    font-size: 1.2em;
+    
+}
+.glg-main .glg-main-btn .glg-main-btn-inp-p input::-webkit-input-placeholder{
+    font-size: .8em;
+    color: rgba(80,80,80,.3)
+}
+.glg-main .glg-main-btn .button{
+    width: 80%;
+    height:2.5em;
+    border-radius: 10px;
+    background: orangered;
+    margin:0 auto;
+    color: #fff;
+    margin-top: 1.5em;
+    text-align: center;
+    line-height: 2.5em;
+    font-size:1.2em;
+}
+.glg-main .glg-main-btn .hide{
+    background: gray;
+}
+.glg-main .glg-main-btn .glg-main-btn-els{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1.5em;
+}
+.glg-main .glg-main-btn .glg-main-btn-els div a{
+    text-align: center;
+    width: 30%;
+    font-size: 15px;
+    color: orangered;
+}
+.glg-main .glg-main-btn .glg-main-btn-els div:last-child a{
+    color: rgba(80,80,80,.3);
+}
+
+.glg-main .glg-main-wechat{
+    width: 100%;
+}
+.glg-main .glg-main-wechat p{
+    width: 100%;
+    font-size: .9em;
+    text-align: center;
+    color: orangered;
+    position: absolute;
+    top:17.5em;
+
+}
+
+.glg-main .glg-main-wechat div{
+    width: 4em;
+    height: 4em;
+    background: url("../img/login-wechat1.png") no-repeat;
+    background-position: 4px 4px;
+    background-size: 85% 85%;
+    position: absolute;
+    top:18em;
+    left: 41%;
+    overflow: hidden;
+}
+.glg-main .glg-main-wechat div p{
+    background: url("../img/login-wechat2.png") no-repeat;
+    background-size: 60% 60%;
+    background-position: 10px 8px;
+    width: 80%;
+    height:80%;
+    position: absolute;
+    left: 10%;
+    top:10%
+}
+
+.glg-List-digdan{
+    width: 100%;
+    height:40px;
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+}
+.glg-List-digdan div{
+  font-size: 15px;
+  line-height: 40px;
+}
+.glg-List-digdan div .active{
+    color: red;
+}
+
+/* 店铺街 */
+
+.glg-dianpujie{
+    width: 100%;
+    margin-bottom: 4px;
+    background: #fff;
+}
+.glg-dianpujie-top{
+    display: flex;
+    justify-content: flex-start;
+}
+.glg-dianpujie-top .glg-dianpujie-top-img{
+    width: 120px;
+    height:80px;
+    background: orangered;
+    margin-left: 10px;
+}
+.glg-dianpujie-top .glg-dianpujie-top-title{
+    width: 300px;
+    height: 80px;
+    margin-left: 40px;
+}
+.glg-dianpujie-top .glg-dianpujie-top-title h3{
+    margin-top: 10px;
+}
+.glg-dianpujie-top .glg-dianpujie-top-title div{
+    float: left;
+    width: 80px;
+    height: 20px;
+    margin-right: 3px;
+    border:1px solid orangered;
+    color: orangered;
+    padding: 2px;
+    text-align: center;
+    margin-top:7px;
+}
+
+.glg-dianpujie-bottom{
+    display: flex;
+    justify-content: flex-start;
+}
+.glg-dianpujie-bottom .glg-dianpujie-bottom-left{
+    width: 60%;
+    height: 250px;
+    margin-left: 10px;
+}
+
+.glg-dianpujie-bottom .glg-dianpujie-bottom-right{
+    width: 35%;
+    height: 250px;
+}
+.glg-dianpujie-bottom .glg-dianpujie-bottom-right div{
+    width: 100%;
+    height: 125px;
+}
+.glg-dianpujie-bottom .glg-dianpujie-bottom-right div:last-child{
+}
+.fuwushangshengqing{
+    width:100%;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    font-size:18px;
+    background:orangered;
+    color:#fff;
+}
+/* 自定义message alert 类名 */
+.cusMessage{
+    width:3rem;
+    height:50px;
+}
+.cusClass{
+    max-width: 300px;
+    margin:-150px auto 0;
+}
+.changeFontFamily{
+    font-size: 30px;
+    font-weight: bold;
+}
